@@ -1,0 +1,33 @@
+    1  CODE .
+    2  cd reac
+    3  npm create vite@latest
+    4  mkdir primer proyecto
+    5  cd promer proyecto
+    6  mkdir proyecto_comandos
+    7  cd proyecto_comandos
+    8  mkdir docuemntos imagenes scripts
+    9  cd documentos
+   10  cd docuemntos
+   11  echo "primera linea"
+   12  mkdir proyecto_comandos
+   13  clear proyecto_comandos
+   14  mkdir proyecto_comandos
+   15  rm -r proyecto_comandos
+   16  mkdir proyecto_comandos
+   17  cd proyecto_comandos
+   18  mkdir documentos imagenes scripts
+   19  cd documentos
+   20  echo "primera linea e texto"> notas.txt
+   21  echo "segunda linea de texto">> notas.txt
+   22  echo "tercera linea">> notas.txt
+   23  cp notas.txt ../scripts/backup_notas.txt
+   24  mv ../backup_txt ../imagenes/
+   25  mv ../scripts/backup_notas.txt ../imagenes/
+   26  cd ..
+   27  cat documentos/notas.txt > documentos/resumen.txt
+   28  echo "esta es una linea mas." >> documentos/resumen.txt
+   29  cat documentos/notas.txt > documentos/resumen.txt
+   30  rm imagenes/backup_notas.txt
+   31  rmdir imagnes
+   32  rmdir imagenes
+   33  history > tarea-s1-[edison_mendez].txt
